@@ -1,6 +1,13 @@
 # WebVoting
 Website Voting yang ditulis menggunakan PHP Native
 
+# Project Details
+- Start: 11-Jan-24
+- End: 8-Feb-24 [ Estimasi ]
+- Language: PHP Native
+- Base: Web
+- Type: Beginner
+
 # Member
 - Project Manager
    - Name: Azis
