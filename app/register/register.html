@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css" />
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css" />
   </head>
   <body>
     <header>
@@ -17,20 +17,27 @@
     </header>
     <main>
       <section class="form-login">
-        <h1>LOG IN</h1>
+        <h1>Sign Up</h1>
         <form action="" class="form-input">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+
           <label for="username">Username</label>
           <input type="text" name="username" id="username" />
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+
           <label for="password">Password</label>
           <input type="password" name="password" id="password" />
-          <button type="submit">Log in</button>
+          <button type="submit">Sign Up</button>
         </form>
       </section>
-      <section class="login-info">
+      <section class="signUp-info">
         <p>
-          Don't Have Account?
+          Alreaady Have an Account?
           <span>
-            <a href="../register/register.html">Sign Up</a>
+            <a href="../login/login.html">Sign In</a>
           </span>
         </p>
       </section>
