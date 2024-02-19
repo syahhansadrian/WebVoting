@@ -1,0 +1,115 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(202, 202, 202, 1);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 40vh;
+    justify-content: center;
+    background-color:rgb(61, 56, 56);
+    height: 47px;
+}
+
+.navbar-left {
+    margin-left: 16vh;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.minibox {
+    background-color: rgb(201, 206, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(61, 56, 56);
+    margin-right: 6vh;
+    margin-left: -2vh;
+    width: 211px;
+    height: 27px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 1vh;
+    background-color:rgb(244, 244, 244);
+    padding: 0 10vh 0 10vh;
+    opacity: 85%;
+    margin-top: -6vh ;
+    width: 55vh;
+    height: 46vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    width: 55vh;
+    height: 8vh;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.pinFont {
+    color: rgba(0, 0, 0, 1);
+    font-size: 28px;
+    font-weight: 700;
+    text-shadow: 1px 0 2px #000000;
+    -webkit-text-stroke: rgba(0, 0, 0, 0.25);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: smaller;
+    margin-top: 5vh;
+    background-color: rgba(17, 16, 16, 0.59);
+    width: 75px;
+    height: 38px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
