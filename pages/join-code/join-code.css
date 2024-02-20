@@ -25,6 +25,8 @@ body {
     margin-left: 16vh;
     font-size: 20px;
     color: white;
+    background-color: transparent;
+    border: transparent;
 }
 
 .navbar-right {
@@ -95,6 +97,10 @@ body {
     font-weight: 700;
     text-shadow: 1px 0 2px #000000;
     -webkit-text-stroke: rgba(0, 0, 0, 0.25);
+}
+
+#pin {
+    padding: 0 10px 0 10px;
 }
 
 .button {
