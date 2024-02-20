@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+  main {
+    margin: 2em 0;
+    /* overflow-x: hidden; */
+  }
+
+  .create-event-header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+
+  .create-event-title {
+    margin-left: 10vw;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: nowrap;
+  }
+
+  .create-event-header img {
+    width: 226px;
+  }
+
+  .create-event-form {
+    background-color: white;
+    width: 80%;
+    height: 356px;
+    margin: -20px auto 0;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 1px 6px 8px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .create-event-form label {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .create-event-form input,
+  .description {
+    width: 100%;
+    background-color: var(--bg-color);
+    border: 1px solid var(--bg-color);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 2px;
+  }
+
+  .event-name input {
+    height: 30px;
+  }
+
+  .event-desc .description {
+    height: 54px;
+    resize: none;
+  }
+
+  .date {
+    display: flex;
+    gap: 1em;
+  }
+
+  .date label {
+    font-size: 14px;
+  }
+
+  .date input {
+    height: 25px;
+  }
+  .btn-submit {
+    background-color: var(--navigation-color);
+    border: 1px solid var(--navigation-color);
+    border-radius: 5px;
+    width: 105px;
+    height: 30px;
+    color: white;
+  }
+}
