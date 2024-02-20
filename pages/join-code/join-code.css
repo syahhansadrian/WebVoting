@@ -98,7 +98,7 @@ body {
     text-shadow: 1px 0 2px #000000;
     -webkit-text-stroke: rgba(0, 0, 0, 0.25);
 }
-
+ /* this id is not too important */
 #pin {
     padding: 0 10px 0 10px;
 }
